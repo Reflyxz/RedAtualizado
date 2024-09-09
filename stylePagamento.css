@@ -1,0 +1,222 @@
+
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "jersey 15" sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(14, 13, 13);
+  background-size: cover;
+  background-position: center;
+}
+
+.tudo {
+  /* Remove fixed positioning if not needed */
+  /* position: fixed; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Titulo {
+  position: absolute;
+  margin-top: -872px;
+  font-family: "Jersey 15", sans-serif;
+  border-color: red rgb(41, 39, 39) red rgb(41, 39, 39);
+  border-width: 3px;
+  border-style: solid;
+  width: 100%;
+  background-color: rgb(41, 39, 39);
+  text-align: center;
+  padding: 20px;
+}
+
+.Titulo h1 {
+  font-family: "jersey 15" sans-serif;
+  font-size: 40px;
+}
+
+.wrapper {
+font-family: "Jersey 15", sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+  margin-top: -250px;
+  margin-bottom: 0px;
+  border: 2px solid red;
+  background: transparent;
+  border-radius: 12px;
+  width: 330px;
+  color: white;
+  padding: 25px 35px;
+  backdrop-filter: blur(40px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.wrapper h1{
+    
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background:transparent;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 0, 0, 0.2);
+    border-radius: 40px;
+    font-size: 20px;
+    color:white;
+    padding: 20px 45px 20px 20px;
+}
+
+
+.input-box input::placeholder{
+    color: rgb(255, 0, 0);
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+
+.btnpix{
+  font-family: "jersey 15" sans-serif;
+
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 0, 0, 0.2);
+    border-radius: 40px;
+    font-size: 20px;
+    color:white;
+    padding: 20px 45px 20px 20px;
+    margin-bottom: 40px;
+}
+
+.pixtxt{
+  margin-left: 24px;
+  font-family: "jersey 15" sans-serif;
+
+}
+
+
+
+.btnpix:hover{
+    box-shadow: 0 0 15px red ;
+  }
+
+.wrapper .input-pix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.TextoPagamento{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.TextoPagamento2{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.txtDescriçao{
+  font-family: "Roboto", sans-serif;
+
+}
+
+
+
+.wrapper2{
+    margin-left: -330px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 560px;
+    border: 2px solid red;
+    background: transparent;
+    border-radius: 12px;
+    width: 330px;
+    color: white;
+    padding: 25px 35px;
+    backdrop-filter: blur(40px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.textohorario{
+
+    font-size: 15px;
+}
+
+
+.wrapper3{
+    margin-left: -350px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    
+    background: transparent;
+    border-radius: 12px;
+    width: 350px;
+
+    padding: 25px 35px;
+
+}
+
+
+  .jersey-15-regular {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .rubik-glitch-regular {
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Tipografia responsiva */
+  @media (max-width: 768px) {
+    h1, h2 {
+      font-size: 24px;
+    }
+}

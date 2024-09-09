@@ -1,0 +1,341 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: "Anton", sans-serif;
+    overflow-x: hidden;
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.tituloSobre{
+    font-size: 25px;
+}
+
+.Titulo{
+    background-color: rgb(41, 39, 39);
+    border-bottom: solid red;
+    border-top: solid red;
+
+}
+
+.Titulo h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+.imagemRed{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.txtRed{
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+    font-size: 20px;
+}
+
+
+.btn-wrapper{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+.BtnCompreAqui{
+    cursor: pointer;
+    margin-top: 110px;
+    width: 55vh;
+    height: 70px;
+    border:solid red;
+    border-radius: 10px;
+    background-color: rgb(41, 39, 39);
+}
+
+.BtnCompreAqui:hover{
+    box-shadow: 0 0 15px red ;
+
+}
+
+.txtBtn{
+    font-family: "Anton", sans-serif;
+    margin-top: 12px;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.Sobre{
+    margin-top: 100px;
+    background-color: rgb(41, 39, 39);
+    border-bottom: solid red;
+    border-top: solid red;
+    width: 100%;
+    height: 70px;
+}
+
+.Sobre h2{
+    margin-top:13px;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+}
+
+
+/* SOBRE AS FESTAS CORES E TEXTOS */
+
+.txtSobre{
+    font-size: 17px;
+}
+
+.Sobre-wrapper{
+    margin-top: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+
+}
+
+.sobres p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(245, 234, 234);
+    
+}
+
+.sobres{
+    display: flex;
+    text-align: center;
+    
+}
+
+
+  .sob1-color{
+    color: red;
+    font-size: 21px;
+  }
+
+  .sob2-color{
+    font-size: 20px;
+    color: yellow;
+  }
+ 
+  .sob3-color{
+    font-size: 20px;
+    color: rgb(11, 7, 228);
+  }
+
+  .sob4-color{
+    font-size: 20px;
+    color: purple;
+  }
+
+  .sob5-color{
+    font-size: 20px;
+    color: rgb(231, 16, 195);
+  }
+
+  .sob6-color{
+    font-size: 20px;
+    color: rgb(3, 211, 65);
+  }
+
+
+ 
+
+  .rodape{
+    margin-top: 60px;
+    background-color: rgb(41, 39, 39);
+    border-bottom: solid red;
+    border-top: solid red;
+    width: 100%;
+    height: 50px;
+    
+}
+
+.rodape p{
+    margin-top:11px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    
+}
+
+.TextoRodaPe{
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+  
+
+
+/*Redes Social*/
+.social_media{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: -20vh;
+  
+  }
+  
+  .social_media a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff9900;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    fill: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 3 5px rgba(0, 0, 0, 3 );
+  
+  }
+  
+  .social_media a:not(:last-child){
+    margin-right: 30px;
+  
+  }
+  
+  .social_media a:hover .balloon{
+    top: -45px;
+    opacity: 1;
+  
+  }
+  
+  .social_media svg{
+      height: 50px;     
+      filter: drop-shadow(0 5px rgba(0,0,0.2))
+    }
+  
+  
+  .social_media .balloon{
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    height: 25px;
+    opacity: 0;
+    border-radius:30px;
+    transition: top .2s ease-in-out, opacity .2 ease-in-out;
+    filter: drop-shadow(0 5px 10px rgba(0,0,0,.2));
+  
+  }
+  
+  .social_media .name{
+    position: relative;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff9900;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .social_media .name::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #ff9900;
+    transform: rotate(5deg);
+    bottom: -10px;
+    border-radius: 4px;
+  
+  
+  }
+  
+  
+  .social_media a.whatswapp,
+  .social_media a.whatswapp .name,
+  .social_media a.whatswapp .name::before{
+    background-color: green;
+    cursor: pointer;
+  }
+  
+  .social_media a.tiktok,
+  .social_media a.tiktok .name,
+  .social_media a.tiktok .name::before{
+    cursor: pointer;
+    background-color: rgb(151, 25, 151);
+  }
+  
+  
+  
+  /* Modifica o tamanho do ícone */
+  ion-icon {
+    font-size: 30px; /* tamanho desejado */
+  }
+  
+  /* Modifica a cor do ícone */
+  ion-icon {
+    color: #ffffff; /* cor desejada */
+  }
+  
+  
+  /*Redes Social*/
+  
+
+  @media (max-width: 768px) {
+
+    .Titulo h1{
+        text-align: center;
+        font-size: 22px;
+    
+    }
+
+    img{
+        margin-top: 40px;
+        width: 400px;
+    }
+
+    .txtRed{
+        margin-top: -40px;
+        font-size: 16px;
+    }
+
+    .BtnCompreAqui{
+        width: 350px;
+        height: 80px;
+    }
+
+    .txtBtn{
+        margin-top: 16px;
+    }
+
+    .Sobre-wrapper{
+        font-size: 16px;
+    }
+
+    .TextoRodaPe{
+        font-size: 17px;
+    }
+
+}
+
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
